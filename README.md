@@ -4,7 +4,7 @@ MATLAB simulation of the rotational dynamics of a simplified wind turbine-genera
 
 ## What it does
 
-I wanted to understand why wind turbines need active speed control in the first place — not just accept it as a given, but actually model the dynamics and see for myself what happens without it. Wind turbines need their shaft angular velocity kept within a safe range to convert energy efficiently and avoid mechanical overload. This project models a simplified drivetrain — a single rotating body driven by aerodynamic torque and resisted by generator torque and mechanical damping — and simulates how angular velocity evolves over time, both with fixed parameters and under proportional feedback control.
+I wanted to understand why wind turbines actually need active speed control, rather than just accepting it as a given. So I built a model to see the dynamics for myself and find out what happens without it. Wind turbines need their shaft angular velocity kept within a safe range to convert energy efficiently and avoid mechanical overload. This project models a simplified drivetrain: a single rotating body driven by aerodynamic torque and resisted by generator torque and mechanical damping, and simulates how angular velocity evolves over time, both with fixed parameters and under proportional feedback control.
 
 ## System & governing equation
 
