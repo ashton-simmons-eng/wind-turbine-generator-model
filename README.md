@@ -48,4 +48,4 @@ where `Taero` is aerodynamic (driving) torque, `Tgen = Kω` is generator (resist
 
 ## What I learned / next steps
 
-Proportional control alone leaves a steady-state error because it needs a persistent speed deviation to generate the torque that balances the aerodynamic input — there's nothing to eliminate that offset. A natural extension would be adding an integral term (PI control) to drive the steady-state error to zero, or modelling variable/turbulent wind input instead of a constant `Taero`.
+Proportional control alone leaves a steady-state error. It needs a persistent speed deviation to generate the torque that balances the aerodynamic input, and there's nothing in the system to eliminate that offset. A natural extension would be adding an integral term (PI control) to drive the steady-state error to zero, or modelling variable/turbulent wind input instead of a constant Taero.
